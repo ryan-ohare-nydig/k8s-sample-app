@@ -1,4 +1,4 @@
-name: GGShield Manual
+name: Thunderscan
 on:
   push:
     branches: [ main ]
