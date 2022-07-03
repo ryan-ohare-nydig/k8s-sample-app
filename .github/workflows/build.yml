@@ -32,9 +32,9 @@ jobs:
       id: build-image
       env:
         #Update to your ECR registry
-        ECR_REGISTRY: 123456789101.dkr.ecr.us-east-1.amazonaws.com
-        ECR_REPOSITORY: sample-repo
-        IMAGE_TAG: sample-app${{ github.run_number }}
+        ECR_REGISTRY: 715511473623.dkr.ecr.us-east-1.amazonaws.com
+        ECR_REPOSITORY: k8s-sample-app
+        IMAGE_TAG: k8s-sample-app-${{ github.run_number }}
       run: |
         # Build a docker container and push it to ECR
         docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
