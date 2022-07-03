@@ -1,1 +1,2 @@
-# k8s-sample-app
+# sample-app
+sample app solution
