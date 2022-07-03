@@ -7,7 +7,7 @@ app = Flask(__name__)
 def hello_world():
     return 'sample-app is running!', 200
 
-
+SECRET="stuff"
 # @app.route('/goodbye')
 # def goodbye_world():
 #     return 'You deployed a change!', 200
@@ -102,7 +102,7 @@ class Individual(object):
 
 # Driver code
 def run_search(pop_size, phrase):
-    global TARGET 
+    global TARGET
     TARGET = phrase
     # current generation
     generation = 1
