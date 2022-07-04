@@ -1,4 +1,4 @@
-name: Thunderscan
+name: Thunderscan-2
 on:
   push:
     branches: [ main ]
